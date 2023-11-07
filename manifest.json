@@ -4,10 +4,10 @@
   "version": "0.1",
   "author": "jumango",
   "description": "a chrome extension that enhances gyazo with GPT-4 vision capabilities",
-  "permissions": [""],
+  "permissions": ["storage", "activeTab", "https://api.openai.com/"],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://gyazo.com/*"],
       "js": ["content.js"]
     }
   ],

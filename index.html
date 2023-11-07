@@ -1,21 +1,24 @@
-<!--
-   index.html
-   Author: jumango
-   Author URI: https://www.jumango.dev
--->
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>GyazoGPT</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <div class="content">
+      <div style="font-size: large">GyazoGPT</div>
+      <div class="key_modal">
+        <input
+          type="text"
+          id="openaiapi"
+          placeholder="OpenAI API Key (sk-...)"
+        />
+        <button class="button" id="openaikey_save">Save</button>
+      </div>
+    </div>
     <script src="scripts.js"></script>
   </body>
-  <!-- openaiapi key ui -->
-  <div>GyazoGPT</div>
 </html>
