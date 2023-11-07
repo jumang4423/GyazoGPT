@@ -1,3 +1,3 @@
 # GyazoGPT
 
-chrome extention integrating gpt4 vision to gyazo.
+a chrome extension that enhances gyazo with GPT-4 vision capabilities

@@ -3,7 +3,7 @@
   "name": "GyazoGPT",
   "version": "0.1",
   "author": "jumango",
-  "description": "A description about your Chrome Extension...",
+  "description": "a chrome extension that enhances gyazo with GPT-4 vision capabilities",
   "permissions": [""],
   "content_scripts": [
     {
@@ -17,6 +17,6 @@
   "browser_action": {
     "default_icon": "logo.png",
     "default_popup": "index.html",
-    "default_title": "A tooltip popup description when you hover over the Chrome Extension icon."
+    "default_title": "a chrome extension that enhances gyazo with GPT-4 vision capabilities"
   }
 }
